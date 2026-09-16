@@ -27,23 +27,23 @@ header {
     display: flex;
     gap: 20px;
 }
-#Apresentacao {
+#Guia {
     padding: 20px;
     margin: 20px;
     background-color: rgb(17, 18, 25);
     display: flex;
     justify-content: space-between;
     border-radius: 12px;
-    gap: 30%;
+    gap: 20%;
 
 }
-#Apresentacao img {
-    width: 100%;
-    height: 350px;
+#Guia img {
+    width: 50%;
+    height: 400px;
     border-radius: 12px;
 
 }
-#Apresentacao h2{
+#Guia h2{
     font-size: 30px;
     font-weight: 700;
     color: #ffaa00ee;
@@ -52,33 +52,29 @@ header {
 #personagens-texto{
     margin-bottom: 24px;
 }
-#personagens-texto h2 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #ffaa00ee;
-    font-family:'Times New Roman', Times, sans-serif;
-}
+
+
 #importancia {
     padding: 20px;
     margin: 20px;
     background-color: rgb(23, 22, 30);
     border-radius: 12px;;
 }
+#importancia-texto{
+        margin-bottom: 24px;
+
+}
 
 #motivos{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     border-radius: 12px;
-    background-color: rgb(28, 28, 43);
     justify-content: space-between;
 }
-
-
-.personagens-cards h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #ffaa00ee;
-    font-family:'Times New Roman', Times, sans-serif;
+.motivos1{
+    background-color: rgb(28, 28, 43);
+     border-radius: 12px;
+     padding: 10px;
 }
 .personagens-cards img  {
         border-radius: 20px;
@@ -87,17 +83,35 @@ header {
         object-fit: cover;
         padding: 10px;
 }
-
-footer {
+#caminho-personagens {
     padding: 20px;
+    margin: 20px;
+    background-color: rgb(23, 22, 30);
+    border-radius: 12px;
+    text-align: center;
 }
 
-#identificacao {
-    display: flex;
-    gap: 20px;
+footer {
+   display: flex;
+    justify-content: space-between;
+    padding: 40px;
 
-}.textinho{
+}
+.textinho{
     color: #fb0d00ee;
     font-size: 13px;
     text-transform: uppercase;
+}
+a {
+  color: #000000;
+  background-color: #f6c500;
+  padding: 5px;
+  text-decoration: none;
+  line-height:1.5;
+  border-radius:6px;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #d81d1d;
 }

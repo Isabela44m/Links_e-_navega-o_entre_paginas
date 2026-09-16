@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+#itens {
+    display: flex;
+    gap: 20px;
+}
+#curiosidades{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#curiosidades img{
+    height: 300px;
+    width: 350px;;
+
+}
+#Vs{
+    display: flex;
+  flex-direction: row;
+  gap:10px
+}
+#VS{
+    display: flex;
+    flex-direction:row;
+}
