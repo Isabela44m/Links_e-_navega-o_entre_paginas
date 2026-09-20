@@ -11,33 +11,118 @@ body{
     font-size: 17px;
     text-decoration: none;
 }
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffaa00ee;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 40px;
-
+    align-items: center;
+    flex-wrap: wrap;
 }
-#itens {
+
+
+#item {
     display: flex;
     gap: 20px;
+    padding: 20px;
 }
+
+
+#Alem {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(17, 18, 25);
+    border-radius: 12px;
+}
+#Alem h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffaa00ee;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+
 #curiosidades{
     padding: 20px;
     margin: 20px;
+    background-color: rgb(23, 22, 30);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    gap: 5%;
+}
+#curiosidades img{
+    height: 100%;
+    width:100%;
+    border-radius: 12px;
+
+}
+#VS{
+    gap:10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+#VS h3{
+     font-size: 20px;
+    font-weight: 700;
+    color:#ffaa00ee;
+    font-family:'Times New Roman', Times, sans-serif;
+}
+#VS h2{
+   font-size: 30px;
+    font-weight: 700;
+    font-family:'Times New Roman', Times, sans-serif;
+    color :rgba(226, 33, 33, 0.859);
+}
+.fatos{
+    background-color:rgb(19, 22, 42);
+    border-radius: 12px;
+    width: 100%; 
+    height: auto;
+    margin-bottom:20px;
+
+}
+.contexto{
+  margin: 5px;
+  padding: 5px;
+}
+.fatos p{
+    padding: 5px; 
+    margin: 5px;
+}
+
+
+#rodape {
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
-#curiosidades img{
-    height: 300px;
-    width: 350px;;
 
+.textinho{
+    color: #fb0d00ee;
+    font-size: 13px;
+    text-transform: uppercase;
 }
-#Vs{
-    display: flex;
-  flex-direction: row;
-  gap:10px
+a {
+  color: #000000;
+  background-color:#f6c500;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
 }
-#VS{
-    display: flex;
-    flex-direction:row;
+a:hover {
+  color: #ffffff;
+  background-color: #d81d1d;
 }
+
+

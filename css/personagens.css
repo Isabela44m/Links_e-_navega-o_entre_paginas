@@ -21,12 +21,18 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 40px;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
-#itens {
+#item {
     display: flex;
     gap: 20px;
+    padding: 20px;
 }
+
+
+
 #Apresentacao {
     padding: 20px;
     margin: 20px;
@@ -34,7 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     border-radius: 12px;
-    gap: 20%;
+    gap: 10%;
 
 }
 #Apresentacao img {
@@ -78,7 +84,6 @@ header {
     border-radius: 12px;
     background-color: rgb(28, 28, 43);
     padding: 10px;
-    padding:10px;
 
 }
 .personagens-cards h3 {
@@ -105,8 +110,21 @@ header {
     display: flex;
     gap: 20px;
 
-}.textinho{
+}
+.textinho{
     color: #fb0d00ee;
     font-size: 13px;
     text-transform: uppercase;
+}
+
+a {
+  color: #000000;
+  background-color: #f6c500;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+a:hover {
+  color: #ffffff;
+  background-color: #d81d1d;
 }
