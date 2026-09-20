@@ -52,10 +52,10 @@ header {
     justify-content: space-between;
     border-radius: 12px;
     gap: 20%;
-
 }
+
 #destaques img {
-    width: 50%;
+    width: 100%;
     height: 400px;
     border-radius: 12px;
 
@@ -69,16 +69,16 @@ header {
 #destaques p {
 margin-bottom: 30px;
 }
-#personagens-texto{
-    margin-bottom: 24px;
+#acesso{
+    display: flex;
+    gap:10px;
 }
-
 
 #importancia {
     padding: 20px;
     margin: 20px;
     background-color: rgb(23, 22, 30);
-    border-radius: 12px;;
+    border-radius: 12px;
 }
 #importancia-texto h2{
      font-size: 30px;
@@ -136,11 +136,12 @@ margin-bottom: 30px;
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #Guias{
     display: flex;
     justify-content: space-between;
-    gap:5px
+    gap:10px;
 }
 .textinho{
     color: #fb0d00ee;
@@ -158,7 +159,4 @@ a {
 a:hover {
   color: #ffffff;
   background-color: #d81d1d;
-}
-#destaques a {
-    padding: 10px;
 }

@@ -106,6 +106,12 @@ header {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Guias{
+    display: flex;
+    justify-content: space-between;
+    gap:10px
 }
 
 .textinho{
